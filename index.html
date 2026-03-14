@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aadhaar QR Code Scanner - Offline Verify Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f4f8ff;
+        --surface: rgba(255, 255, 255, 0.88);
+        --ink: #10243b;
+        --muted: #4b6079;
+        --line: rgba(33, 78, 135, 0.14);
+        --accent: #1a8f49;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1b2b;
+          --surface: rgba(19, 35, 54, 0.9);
+          --ink: #f5f9ff;
+          --muted: #c1d0e2;
+          --line: rgba(170, 206, 241, 0.16);
+          --accent: #5dd66b;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font:
+          16px/1.65 "Segoe UI",
+          Arial,
+          sans-serif;
+        background:
+          radial-gradient(
+            circle at top,
+            rgba(86, 165, 255, 0.12),
+            transparent 32%
+          ),
+          linear-gradient(180deg, var(--bg), var(--bg));
+        color: var(--ink);
+      }
+      main {
+        width: min(880px, calc(100% - 32px));
+        margin: 32px auto 56px;
+      }
+      section {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 24px;
+        margin-bottom: 16px;
+        backdrop-filter: blur(10px);
+      }
+      h1,
+      h2 {
+        margin: 0 0 12px;
+        line-height: 1.2;
+      }
+      h1 {
+        font-size: clamp(32px, 5vw, 46px);
+      }
+      h2 {
+        font-size: 22px;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      ul {
+        margin: 12px 0 0;
+        padding-left: 20px;
+      }
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 12px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--accent);
+      }
+      .meta {
+        font-size: 14px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="eyebrow">Privacy Policy</div>
+        <h1>Aadhaar QR Code Scanner - Offline Verify</h1>
+        <p class="meta">Effective date: March 14, 2026</p>
+        <p>
+          Aadhaar QR Code Scanner - Offline Verify is an independent offline
+          viewer for Aadhaar Secure QR data. This app is not affiliated with
+          UIDAI or the Government of India.
+        </p>
+      </section>
+
+      <section>
+        <h2>What the app does</h2>
+        <p>
+          The app scans Aadhaar Secure QR codes from the device camera, imported
+          images, or imported PDF files. It decodes the embedded QR payload on
+          the device and attempts to verify the QR signature using bundled UIDAI
+          public certificates.
+        </p>
+      </section>
+
+      <section>
+        <h2>Data the app accesses</h2>
+        <ul>
+          <li>Camera access, only when you choose live scanning.</li>
+          <li>Image or PDF files you choose to import for QR reading.</li>
+          <li>
+            Aadhaar QR fields that may include name, date of birth, gender,
+            address, reference ID, and embedded photo.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>How data is processed</h2>
+        <ul>
+          <li>QR decoding happens on-device.</li>
+          <li>No Aadhaar data is uploaded to a server by the app.</li>
+          <li>
+            No analytics, ads, trackers, or third-party data collection SDKs are
+            included in the app.
+          </li>
+          <li>
+            Redacted share only sends the limited summary shown in the app at
+            the time of sharing.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Storage and retention</h2>
+        <ul>
+          <li>
+            The app is designed to keep scan results in memory for the current
+            session only.
+          </li>
+          <li>The app does not create its own database of Aadhaar details.</li>
+          <li>The app does not intentionally back up Aadhaar data.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Permissions</h2>
+        <ul>
+          <li><strong>Camera:</strong> used only for live QR scanning.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Important limitations</h2>
+        <ul>
+          <li>
+            Signature verification is an offline cryptographic check and is not
+            UIDAI online authentication.
+          </li>
+          <li>
+            Some older or legacy QR formats may decode without cryptographic
+            verification.
+          </li>
+          <li>
+            Certificate rotation by UIDAI may require app updates for future
+            verification compatibility.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>
+          If you have questions about this Privacy Policy or the app, you can
+          contact the developer using the details below.
+        </p>
+
+        <ul>
+          <li><strong>Developer:</strong> Prakash Makwana</li>
+          <li><strong>Email:</strong> prakash27202@gmail.com</li>
+          <li><strong>Country:</strong> India</li>
+        </ul>
+
+        <p class="meta">
+          We will respond to reasonable privacy inquiries as soon as possible.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
