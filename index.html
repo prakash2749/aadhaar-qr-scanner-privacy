@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Aadhaar QR Code Scanner - Offline Verify Privacy Policy</title>
+    <title>Secure Aadhaar QR Scanner Privacy Policy</title>
+
     <style>
       :root {
         color-scheme: light dark;
@@ -29,25 +30,21 @@
       * {
         box-sizing: border-box;
       }
+
       body {
         margin: 0;
-        font:
-          16px/1.65 "Segoe UI",
-          Arial,
-          sans-serif;
+        font: 16px/1.65 "Segoe UI", Arial, sans-serif;
         background:
-          radial-gradient(
-            circle at top,
-            rgba(86, 165, 255, 0.12),
-            transparent 32%
-          ),
+          radial-gradient(circle at top, rgba(86,165,255,0.12), transparent 32%),
           linear-gradient(180deg, var(--bg), var(--bg));
         color: var(--ink);
       }
+
       main {
         width: min(880px, calc(100% - 32px));
         margin: 32px auto 56px;
       }
+
       section {
         background: var(--surface);
         border: 1px solid var(--line);
@@ -56,25 +53,29 @@
         margin-bottom: 16px;
         backdrop-filter: blur(10px);
       }
-      h1,
-      h2 {
+
+      h1, h2 {
         margin: 0 0 12px;
         line-height: 1.2;
       }
+
       h1 {
         font-size: clamp(32px, 5vw, 46px);
       }
+
       h2 {
         font-size: 22px;
       }
-      p,
-      li {
+
+      p, li {
         color: var(--muted);
       }
+
       ul {
         margin: 12px 0 0;
         padding-left: 20px;
       }
+
       .eyebrow {
         display: inline-block;
         margin-bottom: 12px;
@@ -84,105 +85,130 @@
         font-weight: 700;
         color: var(--accent);
       }
+
       .meta {
         font-size: 14px;
         color: var(--muted);
       }
     </style>
   </head>
+
   <body>
     <main>
+
       <section>
         <div class="eyebrow">Privacy Policy</div>
-        <h1>Aadhaar QR Code Scanner - Offline Verify</h1>
+        <h1>Secure Aadhaar QR Scanner</h1>
         <p class="meta">Effective date: March 14, 2026</p>
+
         <p>
-          Aadhaar QR Code Scanner - Offline Verify is an independent offline
-          viewer for Aadhaar Secure QR data. This app is not affiliated with
-          UIDAI or the Government of India.
+          Secure Aadhaar QR Scanner is an independent third-party utility app
+          that reads and decodes the publicly available Aadhaar Secure QR code.
+        </p>
+
+        <p>
+          This application is <strong>not affiliated with UIDAI or the Government of India</strong>.
+          The app only displays information already embedded inside the Aadhaar
+          Secure QR code for local verification purposes.
         </p>
       </section>
 
       <section>
         <h2>What the app does</h2>
+
         <p>
-          The app scans Aadhaar Secure QR codes from the device camera, imported
-          images, or imported PDF files. It decodes the embedded QR payload on
-          the device and attempts to verify the QR signature using bundled UIDAI
-          public certificates.
+          The app scans Aadhaar Secure QR codes using the device camera or from
+          images and PDF files selected by the user.
+        </p>
+
+        <p>
+          The QR code payload is decoded locally on the device and the embedded
+          information is displayed to the user.
+        </p>
+
+        <p>
+          The app may attempt to verify the QR digital signature using bundled
+          public verification certificates.
         </p>
       </section>
 
       <section>
         <h2>Data the app accesses</h2>
+
         <ul>
-          <li>Camera access, only when you choose live scanning.</li>
-          <li>Image or PDF files you choose to import for QR reading.</li>
+          <li>Camera access when you choose to scan a QR code.</li>
+          <li>Images or PDF files selected by the user for QR scanning.</li>
           <li>
-            Aadhaar QR fields that may include name, date of birth, gender,
-            address, reference ID, and embedded photo.
+            Aadhaar Secure QR fields such as name, date of birth, gender,
+            address, reference ID, and embedded photograph.
           </li>
         </ul>
+
       </section>
 
       <section>
         <h2>How data is processed</h2>
+
         <ul>
-          <li>QR decoding happens on-device.</li>
-          <li>No Aadhaar data is uploaded to a server by the app.</li>
+          <li>All QR decoding happens locally on the device.</li>
+          <li>The app does not upload Aadhaar information to any server.</li>
+          <li>No analytics or tracking SDKs are included.</li>
+          <li>No Aadhaar data is collected or transmitted by the app.</li>
           <li>
-            No analytics, ads, trackers, or third-party data collection SDKs are
-            included in the app.
-          </li>
-          <li>
-            Redacted share only sends the limited summary shown in the app at
-            the time of sharing.
+            Shared results only include the visible summary information
+            displayed in the app when the user chooses to share.
           </li>
         </ul>
+
       </section>
 
       <section>
         <h2>Storage and retention</h2>
+
         <ul>
-          <li>
-            The app is designed to keep scan results in memory for the current
-            session only.
-          </li>
-          <li>The app does not create its own database of Aadhaar details.</li>
-          <li>The app does not intentionally back up Aadhaar data.</li>
+          <li>Scan results are kept in memory during the active session.</li>
+          <li>The app does not create a permanent database of Aadhaar data.</li>
+          <li>No Aadhaar information is stored on external servers.</li>
         </ul>
+
       </section>
 
       <section>
         <h2>Permissions</h2>
+
         <ul>
-          <li><strong>Camera:</strong> used only for live QR scanning.</li>
+          <li><strong>Camera:</strong> Used only for scanning QR codes.</li>
         </ul>
+
       </section>
 
       <section>
         <h2>Important limitations</h2>
+
         <ul>
           <li>
-            Signature verification is an offline cryptographic check and is not
-            UIDAI online authentication.
+            QR signature verification is a local cryptographic check and is
+            not UIDAI online authentication.
           </li>
+
           <li>
-            Some older or legacy QR formats may decode without cryptographic
-            verification.
+            Some older QR formats may decode without full signature verification.
           </li>
+
           <li>
-            Certificate rotation by UIDAI may require app updates for future
+            Certificate updates from UIDAI may require future app updates for
             verification compatibility.
           </li>
         </ul>
+
       </section>
 
       <section>
         <h2>Contact</h2>
+
         <p>
-          If you have questions about this Privacy Policy or the app, you can
-          contact the developer using the details below.
+          If you have questions regarding this Privacy Policy or the application,
+          please contact the developer.
         </p>
 
         <ul>
@@ -192,9 +218,11 @@
         </ul>
 
         <p class="meta">
-          We will respond to reasonable privacy inquiries as soon as possible.
+          We aim to respond to reasonable privacy inquiries as soon as possible.
         </p>
+
       </section>
+
     </main>
   </body>
 </html>
